@@ -6,11 +6,11 @@ CNN Architecture:
 
 [32C3-BN]*2-[32C5S2-BN]-0.4d-[64C3-BN]*2-[64C5S2-BN]-0.4d-F-256D-10D
 
-nCm -> n CNNs with size mXm
-BN -> Batch Normalization
-xd -> Dropout of x
-F -> Flatten
-xD -> Dense layer of x units
+nCm -> n CNNs with size mXm  
+BN -> Batch Normalization  
+xd -> Dropout of x  
+F -> Flatten  
+xD -> Dense layer of x units  
 
 Epochs : 20
 
